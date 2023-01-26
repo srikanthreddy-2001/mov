@@ -1,0 +1,43 @@
+
+
+.maindiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:rgb(250, 236, 218)
+}
+.input{
+    margin: 15px;
+    text-align: center;
+    margin-left: 40%;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding: 20px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: aqua;
+    background-color: rgb(13, 13, 13);
+   
+}
+.posttit{
+    /* margin-top: 20px; */
+
+    margin-right: 15%;
+    align-items: center;
+}
+.card{
+    border-radius: 5px;
+    width: 385px;
+    height: 400px;
+    margin-left:60px;
+    /* margin-right: 60px; */
+}
+.heading{
+    text-align: center;
+    visibility: hidden;
+    background-color: rgb(127, 255, 170);
+    margin-left: 70px;
+}
+.posttit:hover .heading{
+    visibility: visible;
+}
